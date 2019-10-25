@@ -18,7 +18,7 @@ public class ReactNativeNFCPackage implements ReactPackage {
         return modules;
     }
 
-    // Deprecated RN 0.47
+    // Deprecated RN 0.55
     // @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
